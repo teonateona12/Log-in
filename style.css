@@ -32,12 +32,6 @@
   height: 30%;
 }
 
-.container {
-  /* width: 32%;
-  height: 40%; */
-  padding-left: 5%;
-  display: flex;
-}
 .user-info {
   width: 12%;
   margin: 10px;
@@ -49,6 +43,8 @@
 .text {
   height: 40px;
 }
-/* .name{
-  width: 100%;
-} */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
