@@ -27,7 +27,7 @@ const age = document.querySelector(".age");
 
 //acounts
 const acount1 = {
-  user: "teona",
+  user: "user1",
   pin: 1111,
   birthYear: 1999,
   yearNow: now.getFullYear(),
@@ -35,7 +35,7 @@ const acount1 = {
 };
 
 const acount2 = {
-  user: "mariami",
+  user: "user2",
   pin: 2222,
   birthYear: 1999,
   yearNow: now.getFullYear(),
@@ -49,11 +49,8 @@ const userInfo = function (acc) {
   const name = (nameUser.textContent = acc.user);
   const lastNamee = (nameLast.textContent = acc.lastName);
   const info = `Name: ${
-    name.charAt(0).toUpperCase() +
-    curentAcount.user.slice(1)} ${
-    lastNamee.charAt(0).toUpperCase() +
-    curentAcount.lastName.slice(1)
-  } `;
+    name.charAt(0).toUpperCase() + curentAcount.user.slice(1)
+  } ${lastNamee.charAt(0).toUpperCase() + curentAcount.lastName.slice(1)} `;
   return info;
 };
 
