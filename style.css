@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.welcome {
+  margin: 0;
+}
+
+.highlight {
+  color: rgb(23, 1, 1);
+  border-bottom: 3px solid rgb(1, 15, 1);
+}
+
+.hidden {
+  display: none;
+}
+.user-pin {
+  margin-left: 80%;
+}
+
+.my-pic {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  width: 30%;
+  height: 30%;
+}
+.imgg {
+  width: 30%;
+  height: 30%;
+}
+
+.container {
+  /* width: 32%;
+  height: 40%; */
+  padding-left: 5%;
+  display: flex;
+}
+.user-info {
+  width: 12%;
+  margin: 10px;
+}
+.lorem {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.text {
+  height: 40px;
+}
+/* .name{
+  width: 100%;
+} */
